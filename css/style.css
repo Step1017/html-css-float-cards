@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Fredoka One', cursive;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -22,3 +22,49 @@ h1{
     padding: 50px;
  }
 
+ section {
+    margin-top: 40px;
+    
+ }
+
+ .clearfix::after {
+    content:"";
+    display: table;
+    clear:both;
+ }
+
+.card {
+    width: calc(100% /3);
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+.number-1, .number-2, .number-3 {
+    background-color: black;
+    
+}
+
+img{
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+
+h6 {
+    font-weight: 150;
+    }
+
+a {
+    text-decoration: none;
+    color: #00b7ff;
+    font-size: 12px;
+    font-weight: 150;
+}
+
+
+.description{
+    padding: 10px 0;
+    line-height: 20px;
+}
