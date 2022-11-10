@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+    padding: 50px;
+ }
+
